@@ -1,0 +1,16 @@
+.calculator {
+  width: 200px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.calculator input[type='text'] {
+  padding: 1em 0;
+}
+
+.calculator input[type='button'] {
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+}

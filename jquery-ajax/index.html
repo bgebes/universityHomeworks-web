@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('button').click(function () {
+          $('#div1').load('metin.txt');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="div1"><h2>Değişken Metin</h2></div>
+
+    <button>Metni Getir</button>
+  </body>
+</html>
